@@ -9,3 +9,7 @@ message = message.capitalize()
 print(message)
 message = message.upper()
 print(message)
+
+table=str.maketrans('abcdef', 'uvwxyz')
+fad='fad'.translate(table)
+print(fad)
